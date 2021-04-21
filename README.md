@@ -20,7 +20,7 @@ The original VBA script ran roughly around 0.5 seconds for both 2017 and 2018 st
   <img width="400" height="180" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/Original%20_Code_2017.PNG" title "Original Code 2017 Time Execution">
 </p>
   
-Rather than storing values in cells, the values are stored in arrays ' totalVolumes, tickerStartingPrices, tickerEndingPrices ' . Arrays are faster to store, retrieve, and modify. 
+Rather than storing values in cells, the values are stored in arrays 'totalVolumes, tickerStartingPrices, tickerEndingPrices' . Arrays are faster to store, retrieve, and modify. 
   
 After the code was refactored, the execution time for year 2017 analysis was reduced by around nine-fold. See the image below for an example of the execution time for the years 2017 and 2018 with the refactored code.
   
