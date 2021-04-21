@@ -17,7 +17,7 @@ I reviewed the Total Daily Volume and Return data for years 2017 and 2018 and id
 The original VBA script ran roughly around 0.5 seconds for both 2017 and 2018 stock performance data. See the image right below for an example of the execution time for the year 2017 with the original code.
   
 <p align="center">
-  <img width="400" height="200" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/Original%20_Code_2017.PNG">
+  <img width="400" height="180" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/Original%20_Code_2017.PNG" title "Original Code 2017 Time Execution">
 </p>
   
 Rather than storing values in cells, the values are stored in arrays ''' totalVolumes, tickerStartingPrices, tickerEndingPrices ''' . Arrays are faster to store, retrieve, and modify. 
@@ -25,11 +25,11 @@ Rather than storing values in cells, the values are stored in arrays ''' totalVo
 After the code was refactored, the execution time for year 2017 analysis was reduced by around nine-fold. See the image below for an example of the execution time for the years 2017 and 2018 with the refactored code.
   
 <p align="center">
-  <img width="400" height="200" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/VBA_Challenge_2017.PNG">
+  <img width="400" height="180" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/VBA_Challenge_2017.PNG" title "Refactored Code 2017 Time Execution">
 </p>
   
 <p align="center">
-  <img width="400" height="200" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/VBA_Challenge_2018.PNG">
+  <img width="400" height="180" src="https://github.com/chkCreate/stock-analysis/blob/a2213f63a02074ba7ccba883c664d54df4ad716f/Resources/VBA_Challenge_2018.PNG" title "Refactored Code 2018 Time Execution">
 </p>
   
 ## Summary
@@ -44,5 +44,7 @@ The main benefit of refactoring the original code for this dataset is the reduce
   
 ## References
   
-I worked on this module challenge #2 with a teammate @swlim314.
+(1) I referenced the image centering script from "https://stackoverflow.com/questions/12090472/github-readme-md-center-image".
+  
+(2) I worked on this module challenge #2 with a teammate @swlim314.
   
