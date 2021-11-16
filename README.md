@@ -1,4 +1,4 @@
-# Mod 2 - An Analysis of Green Stocks with VBA
+# Analysis of Green Stocks with VBA
 
 ## Overview of Project
 
